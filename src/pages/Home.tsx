@@ -26,17 +26,17 @@ export default function Home({ onNavigate }: HomeProps) {
 
   const heroSlides = [
     {
-      image: 'https://images.pexels.com/photos/1090638/pexels-photo-1090638.jpeg',
+      image: '/L1.png',
       title: 'Making Homes Smarter',
       subtitle: 'Experience the future of connected living with Mirag8 Smart Mirrors'
     },
     {
-      image: 'https://images.pexels.com/photos/1667071/pexels-photo-1667071.jpeg',
+      image: '/L2.png',
       title: 'Your Smart Companion',
       subtitle: 'Transforming your daily routine with intelligent technology'
     },
     {
-      image: 'https://images.pexels.com/photos/2462015/pexels-photo-2462015.jpeg',
+      image: '/L3.png',
       title: 'Innovation Meets Design',
       subtitle: 'Elegance and technology perfectly combined'
     }
@@ -72,11 +72,14 @@ export default function Home({ onNavigate }: HomeProps) {
   return (
     <div className="pt-16 md:pt-20">
       <section className="relative h-[500px] md:h-[600px] lg:h-[700px]">
-        <Carousel
-          images={heroSlides.map(slide => slide.image)}
-          className="h-full"
-        />
-        <div className="absolute inset-0 bg-gradient-to-b from-black/50 via-black/40 to-black/60 flex items-center justify-center">
+        <div className="relative h-full z-20">
+      <div className="relative h-full z-20">
+
+        
+
+      </div>
+    </div>
+        <div className="absolute inset-0 bg-gradient-to-b from-black/50 via-black/40 to-black/60 flex items-center justify-center z-10 z-10">
           <div className="text-center text-white px-4 max-w-4xl">
             <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-4 md:mb-6 leading-tight">
               Making Homes Smarter
@@ -85,12 +88,7 @@ export default function Home({ onNavigate }: HomeProps) {
               Experience the future of connected living with Mirag8 Smart Mirrors
             </p>
             <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center">
-              <Button onClick={() => onNavigate('products')} variant="primary" className="text-base md:text-lg px-6 md:px-8 py-3 md:py-4">
-                Explore Products
-              </Button>
-              <Button onClick={() => onNavigate('waitlist')} variant="outline" className="text-base md:text-lg px-6 md:px-8 py-3 md:py-4 bg-white/10 border-white text-white hover:bg-white hover:text-gray-900">
-                Join Waitlist
-              </Button>
+              
             </div>
           </div>
         </div>

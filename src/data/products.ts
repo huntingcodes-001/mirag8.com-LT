@@ -23,9 +23,8 @@ export const products: Product[] = [
     price: 29999,
     category: 'lite',
     images: [
-      'https://images.pexels.com/photos/1667071/pexels-photo-1667071.jpeg',
-      'https://images.pexels.com/photos/1090638/pexels-photo-1090638.jpeg',
-      'https://images.pexels.com/photos/2462015/pexels-photo-2462015.jpeg'
+      '/11.png',
+      '/12.png'
     ]
   },
   {
@@ -51,9 +50,8 @@ export const products: Product[] = [
     price: 34999,
     category: 'lite',
     images: [
-      'https://images.pexels.com/photos/1090638/pexels-photo-1090638.jpeg',
-      'https://images.pexels.com/photos/1667071/pexels-photo-1667071.jpeg',
-      'https://images.pexels.com/photos/2462015/pexels-photo-2462015.jpeg'
+      '/21.png',
+      '/22.png'
     ]
   },
   {
@@ -80,9 +78,8 @@ export const products: Product[] = [
     price: 49999,
     category: 'core',
     images: [
-      'https://images.pexels.com/photos/2462015/pexels-photo-2462015.jpeg',
-      'https://images.pexels.com/photos/1090638/pexels-photo-1090638.jpeg',
-      'https://images.pexels.com/photos/1667071/pexels-photo-1667071.jpeg'
+      '/31.png',
+      '/32.png'
     ]
   },
   {
@@ -110,9 +107,8 @@ export const products: Product[] = [
     price: 54999,
     category: 'core',
     images: [
-      'https://images.pexels.com/photos/1667071/pexels-photo-1667071.jpeg',
-      'https://images.pexels.com/photos/2462015/pexels-photo-2462015.jpeg',
-      'https://images.pexels.com/photos/1090638/pexels-photo-1090638.jpeg'
+      '/41.png',
+      '/42.png'
     ]
   },
   {
@@ -141,9 +137,8 @@ export const products: Product[] = [
     price: 79999,
     category: 'pro',
     images: [
-      'https://images.pexels.com/photos/1090638/pexels-photo-1090638.jpeg',
-      'https://images.pexels.com/photos/2462015/pexels-photo-2462015.jpeg',
-      'https://images.pexels.com/photos/1667071/pexels-photo-1667071.jpeg'
+      '/51.png',
+      '/52.png'
     ]
   },
   {
@@ -173,9 +168,8 @@ export const products: Product[] = [
     price: 89999,
     category: 'pro',
     images: [
-      'https://images.pexels.com/photos/2462015/pexels-photo-2462015.jpeg',
-      'https://images.pexels.com/photos/1667071/pexels-photo-1667071.jpeg',
-      'https://images.pexels.com/photos/1090638/pexels-photo-1090638.jpeg'
+      '/61.png',
+      '/62.png'
     ]
   },
   {
@@ -207,9 +201,8 @@ export const products: Product[] = [
     price: 129999,
     category: 'ultra',
     images: [
-      'https://images.pexels.com/photos/1667071/pexels-photo-1667071.jpeg',
-      'https://images.pexels.com/photos/1090638/pexels-photo-1090638.jpeg',
-      'https://images.pexels.com/photos/2462015/pexels-photo-2462015.jpeg'
+      '/71.png',
+      '/72.png'
     ]
   },
   {
@@ -243,9 +236,8 @@ export const products: Product[] = [
     price: 149999,
     category: 'ultra',
     images: [
-      'https://images.pexels.com/photos/2462015/pexels-photo-2462015.jpeg',
-      'https://images.pexels.com/photos/1090638/pexels-photo-1090638.jpeg',
-      'https://images.pexels.com/photos/1667071/pexels-photo-1667071.jpeg'
+      '/81.png',
+      '/82.png'
     ]
   }
 ];

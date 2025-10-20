@@ -8,24 +8,19 @@ interface AboutProps {
 export default function About({ onNavigate }: AboutProps) {
   const teamMembers = [
     {
-      name: 'Arjun Mehta',
+      name: 'Raudmaan Irani',
       role: 'Founder & CEO',
-      image: 'https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg'
+      image: '/f1.jpg'
     },
     {
-      name: 'Neha Kapoor',
+      name: 'Amir Zakaria',
       role: 'Chief Technology Officer',
-      image: 'https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg'
+      image: '/f2.png'
     },
     {
-      name: 'Rohan Sharma',
-      role: 'Head of Design',
-      image: 'https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg'
-    },
-    {
-      name: 'Kavya Reddy',
-      role: 'Product Manager',
-      image: 'https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg'
+      name: 'Rohit Fernandes',
+      role: 'Head of Marketing',
+      image: '/f3.jpg'
     }
   ];
 
@@ -148,7 +143,7 @@ export default function About({ onNavigate }: AboutProps) {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
             {teamMembers.map((member, index) => (
               <div
                 key={index}
